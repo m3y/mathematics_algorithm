@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+mypy = "*"
+isort = "*"
+ptipython = "*"
+prompt-toolkit = "*"
+pytest = "*"
+pytest-pudb = "*"
+
+[packages]
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+list = "pip list"
+fmt  = "sh -c \"isort . ; black .\""
+check_isort = "isort -c ."
+check_format = "black --check ."
+lint = "mypy --ignore-missing-imports --no-site-package --follow-imports=skip ./algorithm"
+repl = "ptipython"
+test = "python -m pytest -s -vv --pdbcls pudb.debugger:Debugger --pdb"
