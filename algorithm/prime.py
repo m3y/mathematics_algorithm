@@ -3,7 +3,7 @@ def is_prime(n: int) -> bool:
         return False
 
     if n == 2:
-        return False
+        return True
 
     flg = True
     for i in range(2, n):
