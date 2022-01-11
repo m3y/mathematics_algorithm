@@ -4,11 +4,11 @@ from .util import multi
 
 
 def gcd(l: int, r: int) -> int:
-    if l == r:
-        return l
-
     if l < r:
         l, r = r, l
+
+    if r == 0:
+        return l
 
     return r if l % r == 0 else gcd(r, l % r)
 
