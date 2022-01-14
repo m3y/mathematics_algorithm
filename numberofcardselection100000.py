@@ -14,7 +14,7 @@ def count_number(a: List[int]) -> Dict[int, int]:
 
 
 def main(params: List[int]):
-    d = count_number(params)
+    d = count_number(A)
     r = 0
     for i in range(1, 50000):
         j = 100000 - i
@@ -22,9 +22,13 @@ def main(params: List[int]):
             r += d[i] * d[j]
 
     if 50000 in d:
-        r += c(d[50000], 2)
+        r += d[50000] * (d[50000] - 1) // 2
+
     print(r)
 
 
 if __name__ == '__main__':
-    main([1, 2, 3, 4, 4, 49999, 50000, 50000, 50001, 99997, 99997, 99998, 99999])
+    # N = int(input())
+    # A = [int(i) for i in input().split()]
+    A = [1, 2, 3, 4, 4, 49999, 50000, 50000, 50001, 99997, 99997, 99998, 99999]
+    main(A)
