@@ -18,6 +18,10 @@ path = "src/frog1.rs"
 name = "climb-stairs"
 path = "src/climb-stairs.rs"
 
+[[bin]]
+name = "knapsack1"
+path = "src/knapsack1.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
