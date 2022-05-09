@@ -22,6 +22,10 @@ path = "src/climb-stairs.rs"
 name = "knapsack1"
 path = "src/knapsack1.rs"
 
+[[bin]]
+name = "brute-force2"
+path = "src/brute-force2.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
