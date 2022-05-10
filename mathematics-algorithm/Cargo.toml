@@ -30,6 +30,10 @@ path = "src/brute-force2.rs"
 name = "taro-s-vacation"
 path = "src/taro-s-vacation.rs"
 
+[[bin]]
+name = "binary-search"
+path = "src/binary-search.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
