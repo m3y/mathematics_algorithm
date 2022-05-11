@@ -11,6 +11,7 @@ https://atcoder.jp/contests/math-and-algorithm
 | 031 | taro-s-vacation |
 | 032 | binary-search |
 | 033 | distance |
+| 034 | nearest-points |
 
 ## How to run
 ```

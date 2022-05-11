@@ -38,6 +38,10 @@ path = "src/binary-search.rs"
 name = "distance"
 path = "src/distance.rs"
 
+[[bin]]
+name = "nearest-points"
+path = "src/nearest-points.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
