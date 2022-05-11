@@ -34,6 +34,10 @@ path = "src/taro-s-vacation.rs"
 name = "binary-search"
 path = "src/binary-search.rs"
 
+[[bin]]
+name = "distance"
+path = "src/distance.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
