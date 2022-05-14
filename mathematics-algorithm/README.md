@@ -13,6 +13,7 @@ https://atcoder.jp/contests/math-and-algorithm
 | 033 | distance |
 | 034 | nearest-points |
 | 035 | two-circles |
+| 036 | colon |
 
 ## How to run
 ```

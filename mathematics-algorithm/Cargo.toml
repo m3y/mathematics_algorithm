@@ -46,6 +46,10 @@ path = "src/nearest-points.rs"
 name = "two-circles"
 path = "src/two-circles.rs"
 
+[[bin]]
+name = "colon"
+path = "src/colon.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
