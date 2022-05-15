@@ -50,6 +50,10 @@ path = "src/two-circles.rs"
 name = "colon"
 path = "src/colon.rs"
 
+[[bin]]
+name = "intersection"
+path = "src/intersection.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
