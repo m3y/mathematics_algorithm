@@ -16,6 +16,7 @@ https://atcoder.jp/contests/math-and-algorithm
 | 036 | colon |
 | 037 | intersection |
 | 038 | how-many-guests |
+| 039 | snowy-days |
 
 ## How to run
 ```
