@@ -54,6 +54,10 @@ path = "src/colon.rs"
 name = "intersection"
 path = "src/intersection.rs"
 
+[[bin]]
+name = "how-many-guests"
+path = "src/how-many-guests.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
