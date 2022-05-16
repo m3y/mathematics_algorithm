@@ -17,6 +17,7 @@ https://atcoder.jp/contests/math-and-algorithm
 | 037 | intersection |
 | 038 | how-many-guests |
 | 039 | snowy-days |
+| 040 | travel |
 
 ## How to run
 ```

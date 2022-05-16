@@ -62,6 +62,10 @@ path = "src/how-many-guests.rs"
 name = "snowy-days"
 path = "src/snowy-days.rs"
 
+[[bin]]
+name = "travel"
+path = "src/travel.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
