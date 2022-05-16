@@ -18,6 +18,7 @@ https://atcoder.jp/contests/math-and-algorithm
 | 038 | how-many-guests |
 | 039 | snowy-days |
 | 040 | travel |
+| 041 | convenience-store2 |
 
 ## How to run
 ```
