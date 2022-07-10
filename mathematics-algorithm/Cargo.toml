@@ -11,10 +11,6 @@ name = "main"
 path = "src/main.rs"
 
 [[bin]]
-name = "frog1"
-path = "src/frog1.rs"
-
-[[bin]]
 name = "climb-stairs"
 path = "src/climb-stairs.rs"
 
@@ -69,6 +65,10 @@ path = "src/travel.rs"
 [[bin]]
 name = "convenience-store2"
 path = "src/convenience-store2.rs"
+
+[[bin]]
+name = "print-prime-numbers"
+path = "src/print-prime-numbers.rs"
 
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
