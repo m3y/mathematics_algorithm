@@ -70,6 +70,10 @@ path = "src/convenience-store2.rs"
 name = "print-prime-numbers"
 path = "src/print-prime-numbers.rs"
 
+[[bin]]
+name = "sum-of-divisors"
+path = "src/sum-of-divisors.rs"
+
 [dependencies]
 # AtCoder 2020年言語アップデート以降に使用できるクレート。
 # 次のページに各クレートについての細かい紹介があります。
